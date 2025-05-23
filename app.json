@@ -2,6 +2,7 @@
   "expo": {
     "name": "therasync",
     "slug": "therasync",
+    "owner": "igornovickij300",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,7 +13,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*", "assets/fonts/MPLUSRounded1c-Regular.ttf"],
+    "assetBundlePatterns": [
+      "**/*",
+      "assets/fonts/MPLUSRounded1c-Regular.ttf"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -25,6 +29,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-web-browser"
+    ]
   }
 }
